@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Website</title>
+    <style>
+        /* Стили для фона */
+        body {
+            background-image: url('background.png'); /* Путь к изображению фона */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Стили для логотипа */
+        #logo {
+            width: 100px; /* Ширина логотипа */
+            height: auto;
+            margin: 20px; /* Отступы вокруг логотипа */
+        }
+
+        /* Остальные стили */
+        /* Здесь можно добавить дополнительные стили CSS */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Вставляем логотип -->
+        <img id="logo" src="/static/valentines_app/log1.jpg" alt="Logo"> <!-- Путь к изображению логотипа -->
+
+        <h1>Welcome to our Valentine's Day Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#valentines">Your Valentines</a></li>
+                <li><a href="#participants">Participants</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <!-- Здесь вы можете добавить описание вашего колледжа или образовательного учреждения -->
+        </section>
+        
+        <section id="valentines">
+            <h2>Your Valentines</h2>
+            <!-- Здесь может быть форма или ссылка для отправки поздравлений -->
+            <a href="/register/">Write a Valentine</a>
+        </section>
+        
+        <section id="participants">
+            <h2>Participants</h2>
+            <!-- Здесь может быть список зарегистрированных пользователей -->
+            <!-- Для примера, замените это на ссылку на страницу с списком пользователей -->
+            <a href="/user-list/">View Participants</a>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Здесь может быть информация об авторских правах или другие дополнительные ссылки -->
+        <p>&copy; 2024 Your College</p>
+    </footer>
+</body>
+</html>
